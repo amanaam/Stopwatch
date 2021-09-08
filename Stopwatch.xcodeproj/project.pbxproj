@@ -15,6 +15,7 @@
 		0401AD1426E7F45300B9B803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0401AD1226E7F45300B9B803 /* LaunchScreen.storyboard */; };
 		0401AD1F26E7F45300B9B803 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401AD1E26E7F45300B9B803 /* StopwatchTests.swift */; };
 		0401AD2A26E7F45300B9B803 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401AD2926E7F45300B9B803 /* StopwatchUITests.swift */; };
+		045815E526E92849001756AE /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045815E426E92849001756AE /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0401AD2526E7F45300B9B803 /* StopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0401AD2926E7F45300B9B803 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		0401AD2B26E7F45300B9B803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045815E426E92849001756AE /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0401AD1026E7F45300B9B803 /* Assets.xcassets */,
 				0401AD1226E7F45300B9B803 /* LaunchScreen.storyboard */,
 				0401AD1526E7F45300B9B803 /* Info.plist */,
+				045815E426E92849001756AE /* Stopwatch.swift */,
 			);
 			path = Stopwatch;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0401AD0C26E7F45200B9B803 /* ViewController.swift in Sources */,
 				0401AD0826E7F45200B9B803 /* AppDelegate.swift in Sources */,
 				0401AD0A26E7F45200B9B803 /* SceneDelegate.swift in Sources */,
+				045815E526E92849001756AE /* Stopwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
