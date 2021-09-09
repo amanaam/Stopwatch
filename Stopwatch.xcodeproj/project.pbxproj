@@ -16,6 +16,8 @@
 		0401AD1F26E7F45300B9B803 /* StopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401AD1E26E7F45300B9B803 /* StopwatchTests.swift */; };
 		0401AD2A26E7F45300B9B803 /* StopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401AD2926E7F45300B9B803 /* StopwatchUITests.swift */; };
 		045815E526E92849001756AE /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045815E426E92849001756AE /* Stopwatch.swift */; };
+		04B195B626EA70A50046E5EF /* toby-yang-Tpnu4wQ0puk-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B195B526EA70A50046E5EF /* toby-yang-Tpnu4wQ0puk-unsplash.jpg */; };
+		04B195BA26EA721A0046E5EF /* photo-1547157720-52d782e55b83.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04B195B926EA721A0046E5EF /* photo-1547157720-52d782e55b83.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0401AD2926E7F45300B9B803 /* StopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchUITests.swift; sourceTree = "<group>"; };
 		0401AD2B26E7F45300B9B803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045815E426E92849001756AE /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		04B195B526EA70A50046E5EF /* toby-yang-Tpnu4wQ0puk-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "toby-yang-Tpnu4wQ0puk-unsplash.jpg"; path = "../../../Downloads/toby-yang-Tpnu4wQ0puk-unsplash.jpg"; sourceTree = "<group>"; };
+		04B195B926EA721A0046E5EF /* photo-1547157720-52d782e55b83.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "photo-1547157720-52d782e55b83.jpeg"; path = "../../../Downloads/photo-1547157720-52d782e55b83.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		0401AD0626E7F45200B9B803 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				04B195B926EA721A0046E5EF /* photo-1547157720-52d782e55b83.jpeg */,
+				04B195B526EA70A50046E5EF /* toby-yang-Tpnu4wQ0puk-unsplash.jpg */,
 				0401AD0726E7F45200B9B803 /* AppDelegate.swift */,
 				0401AD0926E7F45200B9B803 /* SceneDelegate.swift */,
 				0401AD0B26E7F45200B9B803 /* ViewController.swift */,
@@ -235,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B195BA26EA721A0046E5EF /* photo-1547157720-52d782e55b83.jpeg in Resources */,
 				0401AD1426E7F45300B9B803 /* LaunchScreen.storyboard in Resources */,
 				0401AD1126E7F45300B9B803 /* Assets.xcassets in Resources */,
+				04B195B626EA70A50046E5EF /* toby-yang-Tpnu4wQ0puk-unsplash.jpg in Resources */,
 				0401AD0F26E7F45200B9B803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

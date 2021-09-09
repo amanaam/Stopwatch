@@ -10,6 +10,7 @@ import Foundation
 
 class Stopwatch {
   
+  
   private var startTime: NSDate!
 
   func start() {
@@ -29,7 +30,15 @@ class Stopwatch {
   var elapsedTimeAsString: String {
     let mins = Int((elapsedTime.truncatingRemainder(dividingBy: 3600)) / 60)
     let secs = Int(elapsedTime.truncatingRemainder(dividingBy: 60))
-    return String(format: "%02mins:%02d", diffDays, diffHours)
+    let mili = Int(elapsedTime*100)%100
+    print(String(format: "%02d:%02d:%02d", mins, secs, mili))
+    return String(format: "%02d:%02d:%02d", mins, secs, mili)
   }
-   
+  
+  var isRunning: Bool{
+    if startTime != nil{
+      return true}
+    return false
+  }
+  
 }
